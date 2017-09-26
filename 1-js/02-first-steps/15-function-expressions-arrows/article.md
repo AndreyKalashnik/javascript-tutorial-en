@@ -141,7 +141,7 @@ Before we explore how we can write it in a much shorter way, let's note that in 
 
 The idea is that we pass a function and expect it to be "called back" later if necessary. In our case, `showOk` becomes the callback for the "yes" answer, and `showCancel` for the "no" answer.
 
-We can use Function Expressions to write the same function much shorter:
+We can use Function Declaration to write the same function much shorter:
 
 ```js run no-beautify
 function ask(question, yes, no) {
